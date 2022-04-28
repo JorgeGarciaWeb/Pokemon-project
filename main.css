@@ -3,3 +3,59 @@ body {
 	background: -webkit-linear-gradient(to right, #f46b45, #eea849); /* 	Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #f46b45, #eea849); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.title-img {
+
+    display: flex;
+    width: 550px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 15px;
+   
+   
+}
+
+.white-block {
+    display: flex;
+    background-color: rgb(220, 182, 143);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 40px;
+  
+}
+
+.img-center {
+    width: 500px;
+    height: 500px;
+   
+}
+
+.btn {
+    display: flex;
+    width: 150px;
+    height: 80px;
+    margin-top: 45px;
+    margin-left: 1270px;
+}
+
+#prev:hover  {
+    background-color: #06a20b;
+    border-radius: 20%;
+}
+
+#next:hover  {
+    background-color: #06a20b;
+    border-radius: 20%;
+}
+
+
+#prev {
+    margin-right: 30px;
+}
+
+.pk {
+    width: 500px;
+    height: 500px;
+}
